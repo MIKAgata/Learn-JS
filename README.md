@@ -1,12 +1,12 @@
 # Belajar JavaScript - From Beginner to Expert
 
-Repository ini dibuat sebagai dokumentasi perjalanan belajar JavaScript secara terstruktur dan berbasis proyek.
+Repository ini dibuat sebagai dokumentasi perjalanan belajar JavaScript saya secara terstruktur dan berbasis proyek.
 
 Tujuan utama repository ini:
 - Memahami fundamental JavaScript secara kuat
 - Meningkatkan kemampuan problem solving
 - Membangun portofolio project nyata
-- Mempersiapkan diri menjadi Backend Developer / Software Engineer
+- Mempersiapkan diri saya menjadi Cyber security engineer / Software Engineer
 
 ---
 

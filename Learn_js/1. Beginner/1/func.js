@@ -5,10 +5,9 @@ function kali(a, b) {
     return a * b
 }
 
-console.log(kali(12, 2)) //hasilnya akan 24
+console.log(kali(12, 2)) 
 
 
-//combinasi decicion dan function
 function get_kalkulator(a, b, op) {
     if (op == '*') {
         return a * b

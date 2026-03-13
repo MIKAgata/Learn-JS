@@ -1,6 +1,4 @@
-// bentarlagi
-// desision merupakan sebuah metode yang berguna untuk membuat percabangan
-// contoh
+
 let umur = 18
 
 if (umur >= 17) {

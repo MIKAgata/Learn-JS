@@ -13,7 +13,6 @@ password.addEventListener("input", () => {
 let value = password.value
 let score = 0
 
-// length
 if(value.length >= 8){
 length.textContent = "✔ Minimum 8 characters"
 score++
@@ -21,7 +20,7 @@ score++
 length.textContent = "❌ Minimum 8 characters"
 }
 
-// uppercase
+
 if(/[A-Z]/.test(value)){
 uppercase.textContent = "✔ Uppercase letter"
 score++
@@ -29,7 +28,6 @@ score++
 uppercase.textContent = "❌ Uppercase letter"
 }
 
-// number
 if(/[0-9]/.test(value)){
 number.textContent = "✔ Number"
 score++
@@ -37,7 +35,6 @@ score++
 number.textContent = "❌ Number"
 }
 
-// symbol
 if(/[^A-Za-z0-9]/.test(value)){
 symbol.textContent = "✔ Special character"
 score++
@@ -46,7 +43,6 @@ symbol.textContent = "❌ Special character"
 }
 
 
-// strength level
 if(score === 0){
 strengthBar.style.width = "0%"
 strengthText.textContent = ""
